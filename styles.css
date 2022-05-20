@@ -1,0 +1,98 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+.main {
+    background-color: hsl(216, 50%, 16%);
+    width: 16rem;
+    margin: 8rem auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.main-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0.5rem;
+}
+h1{
+    text-align: left;
+    font-size: 18px;
+    color: white;
+    margin-top: 0;
+}
+p {
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    margin: auto;
+    display: inline;
+    text-align: left;
+}
+.eth {
+    float: left;
+    color: hsl(178, 100%, 50%);
+    position: relative;
+    left: 5px;
+}
+.eth-img {
+    float: left;
+}
+.timeLeft {
+    color: hsl(215, 51%, 70%);
+    float: right;
+}
+.timeLeft-img {
+    float: right;
+}
+.bottom {
+    height: 2rem;
+    padding-top: 10px;
+}
+.avatar {
+    height: 2rem;
+}
+.cred {
+    text-align: left;
+}
+hr {
+    border-color: hsl(215, 51%, 70%);
+    border-bottom: none;
+}
+.creation {
+    color: hsl(215, 51%, 70%);
+}
+.Jules {
+    color: white;
+}
+.box {
+    display: inline;
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+}
+.main-p {
+    text-align: left;
+}
+.icon {
+    position: relative;
+    bottom: 150px;
+    visibility: hidden;
+}
+/*hover*/
+.main-img:hover {
+    -webkit-filter:saturate(22%) invert(31%) sepia(92%) saturate(10) hue-rotate(149deg) brightness(93%) contrast(106%);
+    background :url("images/icon-view.svg");  
+    cursor: pointer;
+}
+.main-img:hover ~ .icon {
+    visibility: visible;
+}
+h1:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.Jules:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer; 
+}
